@@ -39,7 +39,7 @@ func (c *ClusterClient) ScriptLoad(ctx context.Context, script string) *StringCm
 			}
 
 			mu.Lock()
-			if cmd.Val() == "" {
+			if val != "" {
 				cmd.val = val
 			}
 			mu.Unlock()
