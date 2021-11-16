@@ -13,7 +13,7 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/go-redis/redis/v8"
-	"github.com/go-redis/redis/v8/internal/hashtag"
+	"github.com/lilirui/redis/v8/internal/hashtag"
 )
 
 type clusterScenario struct {

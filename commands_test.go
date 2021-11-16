@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/go-redis/redis/v8"
-	"github.com/go-redis/redis/v8/internal/proto"
+	"github.com/lilirui/redis/v8/internal/proto"
 )
 
 var _ = Describe("Commands", func() {
